@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	margin-top: 5vh;
+	margin-left: 7vw;
+	width: 40vw;
+	height: 50vh;
+	background-color: #5CF27B;
+	flex-direction: column;
+	background-image: url(../img/Reccc.jpg);
+}
+section.menu a{
+	display: block;
+	border: 2px solid black;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 5%;
+	padding: 2%;
+	background-color: none;
+	color: black;
+	width: 60%;
+	margin-left: 18%;
+}
+body{
+	background-color: #70B37E;
+	background-image: url(../img/fund.jpg);
+}
+section.conteudo{
+	margin-left: 5vw;
+	width: 90vw;
+	margin-top: 10vh;
+	background-color: gray;
+	height: 60vh}
+#foto{
+	width: 40%;
+	height: 100%;
+}
+#foto img{
+	margin-top: 10%;
+	margin-left: 15%;
+	width: 80%;
+	height: 80%;
+}
+#text{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+#text p{
+	padding-top: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: black;
+	font-family: Algerian;
+	margin-top: 15%;
+	font-size: 200%;
+	text-align: justify;
+}
+#video{
+	width: 40%;
+	height: 100%;
+}
+#video video{
+	height: 80%;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+}
+#text a{
+	color: black;
+}
+section.mapa{
+	width: 41vw;
+	height: auto;
+	margin-left: 5vw;
+	margin-top: 15vh;
+	background-color: dimgray;
+	flex-direction: column;
+	text-align: center;
+}
+	#omapa{
+		margin-left: 10%;
+		width: 80%;
+		margin-top: 5%;
+		height: 450px;
+	}
+	section.mapa a{
+		font-family: Algerian;
+		font-size: 100%;
+		color: black;
+	}
+	section.letra{
+		width: 30vw;
+	height: auto;
+	margin-left: 2vw;
+	margin-top: 3vh;
+	background-color: dimgray;
+	flex-direction: column;
+	text-align: center;
+	font-size: 60%;
+	}
+	section.letra h2{
+		font-family: Algerian;
+		font-size: 140%;
+
+	}
+
